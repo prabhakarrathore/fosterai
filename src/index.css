@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #06BBCC;
+  --light: #F0FBFC;
+  --dark: #181d38;
+}
+
+
+body {
+  font-family: 'Nunito', sans-serif;
+}
+#particles-js {
+  background-color: black;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  pointer-events: none;
+}
+
